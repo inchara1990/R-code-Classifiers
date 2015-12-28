@@ -1,0 +1,2 @@
+# R-code-Classifiers
+The R code compares the performance metrics between logistic regression, SVM, Naive Bayes, Knn and random forest classifers in a 10 fold cross validation loop. The features are iteratively selected in a forward selection manner and everytime a new feature(next best feature selected based on regsubsets)  is added the accuracy of the classifers are calculated. Finally a graph is plotted at the end depicting the accuracy at every feature count. 
